@@ -1,2 +1,5 @@
-# igti-modulo-2-angular
- Bootcamp Desenvolvedor Front-End
+# IGTI - ANGULAR
+
+Bootcamp Desenvolvedor Front-End
+
+Módulo 2
