@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { CounterComponent } from './counter/counter.component';
 import { ToDoListComponent } from './to-do-list/to-do-list.component';
 import { ToggleShowComponent } from './toggle-show/toggle-show.component';
+import { RatingComponent } from './rating/rating.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CounterComponent,
     ToDoListComponent,
-    ToggleShowComponent
+    ToggleShowComponent,
+    RatingComponent
   ],
   imports: [
     BrowserModule
