@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CounterComponent } from './counter/counter.component';
+import { ToDoListComponent } from './to-do-list/to-do-list.component';
+import { ToggleShowComponent } from './toggle-show/toggle-show.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CounterComponent
+    CounterComponent,
+    ToDoListComponent,
+    ToggleShowComponent
   ],
   imports: [
     BrowserModule
