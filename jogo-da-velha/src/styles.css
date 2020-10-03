@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 310px;
+  font-family: Courier;
+}
+
+app-tic-tac-toe .main-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+app-tic-tac-toe .main-table td {
+  border: 2px solid #333;
+  font-size: 3rem;
+  height: 6rem;
+  text-align: center;
+  vertical-align: middle;
+  width: 6rem;
+}
+
+app-tic-tac-toe .restart {
+  margin: 2rem auto;
+  padding: 1.5rem 3rem;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 50px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+app-tic-tac-toe .restart:hover {
+  background-color: #ffc107;
+  transition: all .1s ease-in-out;
+}
