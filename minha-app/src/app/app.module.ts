@@ -7,18 +7,18 @@ import { ToDoListComponent } from './to-do-list/to-do-list.component';
 import { ToggleShowComponent } from './toggle-show/toggle-show.component';
 import { RatingComponent } from './rating/rating.component';
 
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
     CounterComponent,
     ToDoListComponent,
     ToggleShowComponent,
-    RatingComponent
+    RatingComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
