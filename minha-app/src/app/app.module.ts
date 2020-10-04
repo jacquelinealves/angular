@@ -8,6 +8,7 @@ import { ToggleShowComponent } from './toggle-show/toggle-show.component';
 import { RatingComponent } from './rating/rating.component';
 
 import { FormsModule } from '@angular/forms';
+import { PanelComponent } from './panel/panel.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { FormsModule } from '@angular/forms';
     ToDoListComponent,
     ToggleShowComponent,
     RatingComponent,
+    PanelComponent,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
