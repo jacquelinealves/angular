@@ -1,0 +1,14 @@
+.galery {
+  margin-bottom: 20px;
+}
+.galery-img {
+  max-height: 500px;
+}
+
+.group-buttons {
+  margin: 20px auto;
+}
+
+.group-buttons span {
+  margin-right: 30px;
+}
