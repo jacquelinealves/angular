@@ -4,17 +4,15 @@
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-<galeria title="Fotos de Paisagens" class="center">
-
-  <!-- [fotos] = [
-    'assets/foto-1.jpg',
-    'assets/foto-2.jpg',
-    'assets/foto-3.jpg',
-    'assets/foto-4.jpg'
-  ]; -->
+<galeria
+  class="center"
+  title="Fotos de Paisagens">
 
 </galeria>
 
-<galeria title="Fotos de Animais" class="center hiddendiv">
-  <p>Nenhuma foto</p>
+<galeria 
+  class="center"
+  title="Fotos de Animais"
+  *ngIf="photos.length === 0"
+  [photos]="[]">
 </galeria>

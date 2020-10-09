@@ -1,19 +1,21 @@
 <h4>{{title}}</h4>
 
 <div class="container">
-  <section class="galery">
-    <div>
-      {{photos}}
-      <!-- <img class="galery-img" src="./assets/01.jpg" alt="Primeira Foto"> -->
-    </div>
+  <section class="galery" [title]="'Fotos de Animais'" [photos]="">
+
 
     <div class="group-buttons">
-      <span>Foto X de X</span>
-      <!-- <button *ngIf=""><<</button> -->
-      <button><<</button>
-      <button><</button>
-      <button>></button>
-      <button>>></button>
+      <!-- <span>Foto {{ fotoAtual }} de {{ totalFotos }}</span> -->
+      <button>&lt;&lt;</button>
+      <button [disable]="photoActual == 0" (click)="previous()">&lt;</button>
+      <button (click)="next()">&gt;</button>
+      <button>&gt;&gt;</button>
     </div>
+  </section>
+</div>
+
+<div class="container">
+  <section class="galery" *ngIf="photos.length">
+    <p>Nenhuma foto para ser exibida!</p>
   </section>
 </div>
