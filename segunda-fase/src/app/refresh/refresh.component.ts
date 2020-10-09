@@ -8,7 +8,7 @@ import { Component, OnInit, Input, OnDestroy } from '@angular/core';
 export class RefreshComponent implements OnInit, OnDestroy {
 
   @Input() id: number;
-  interval: NodeJS.Timeout;
+  // interval: NodeJS.Timeout;
 
   constructor() { }
 
@@ -19,7 +19,7 @@ export class RefreshComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    clearInterval(this.interval);
+    // clearInterval(this.interval);
   }
 
 }
