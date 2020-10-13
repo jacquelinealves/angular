@@ -22,7 +22,14 @@
 
       <button (click)="delete(id)">X</button>
     </div>
-
   </div>
+
+  <div class="container">
+    <h4>ngOnChanges</h4>
+
+    <div>Label: <input [(ngModel)]="label"></div>
+    <counter [label]="label"></counter>
+  </div>
+
 </body>
 </html>
