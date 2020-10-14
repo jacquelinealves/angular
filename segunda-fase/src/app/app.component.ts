@@ -23,5 +23,5 @@ export class AppComponent {
   // PIPES
   n = 3254.53464564;
   hoje = new Date();
-  meuCep = 3692050;
+  meuCep = 36092050;
 }
