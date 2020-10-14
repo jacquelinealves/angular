@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Ciclo de vida dos componentes';
+  title = 'Pipes';
 
   ids: number[] = [];
   lastId: number = 0;
@@ -19,4 +19,9 @@ export class AppComponent {
     this.lastId++;
     this.ids.push(this.lastId);
   }
+
+  // PIPES
+  n = 3254.53464564;
+  hoje = new Date();
+  meuCep = 3692050;
 }

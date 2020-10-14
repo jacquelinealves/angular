@@ -1,11 +1,11 @@
-import { Component, OnInit, Input, OnChanges } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'counter',
   templateUrl: './counter.component.html',
   styleUrls: ['./counter.component.css']
 })
-export class CounterComponent implements OnInit, Input, OnChanges {
+export class  implements OnInit, Input {
 
   @Input() label: string;
   counter: number = 0;
